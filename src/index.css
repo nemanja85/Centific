@@ -1,0 +1,28 @@
+input {
+  width: 200px;
+  padding: 10px 5px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+#buttonGroup {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:nth-child(1) {
+  background-color: red;
+  color: whitesmoke;
+  font-weight: 600;
+}
